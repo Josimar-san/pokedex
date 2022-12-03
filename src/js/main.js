@@ -2,7 +2,7 @@ import '../css/style.css'
 
 /* SELECIONAR OS ELEMENTOS DO DOM */
 
-const inputPesquisa = document.querySelector("#inpuPesquisa")
+const inputPesquisa = document.querySelector("#inputPesquisa")
 const btnLocalizar = document.querySelector("#btnLocalizar")
 const pokedexDisplay = document.querySelector("#display")
 
