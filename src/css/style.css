@@ -20,3 +20,49 @@ header{
 header img{
     height: 50px;
 }
+
+.pokedex{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+       
+}
+
+.formLocalizar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    background-color: azure;
+}
+
+
+.formLocalizar input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+.formLocalizar button{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.display {
+  width: 50%;
+  background-color: bisque;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
