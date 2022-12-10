@@ -31,6 +31,42 @@ header img{
        
 }
 
+.display{
+        
+    background: rgb(252,133,70);
+    background: radial-gradient(circle, rgba(252,133,70,1) 21%, rgba(255,217,0,0.6674019949776786) 71%);
+    border-radius: 5px;
+        box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+        padding: 30px;
+        margin: 20px;
+        width: 400px;
+        transition: all 0.3s ease-out;
+      }
+
+
+
+      .cartaoPokemon {
+        
+        width: 240px;
+        height: 400px;
+        background:radial-gradient(circle, rgba(252,133,70,1) 21%, rgba(255,217,0,0.6674019949776786) 71%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+
+
+      }
+
+      .pokemonSprite{
+        justify-content: space-around;
+         width: 242px;
+         
+      }
+
+      
+    
 .formLocalizar{
     padding: 20px;
     display: flex;
@@ -59,10 +95,11 @@ header img{
 
 .display {
   width: 50%;
-  background-color: bisque;
+  background-color: rgb(122, 183, 221);
 }
 
 main{
     display: flex;
     justify-content: center;
 }
+
