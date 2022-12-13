@@ -1,5 +1,6 @@
 import '../css/style.css'
 
+
 /* SELECIONAR OS ELEMENTOS DO DOM */
 
 const inputPesquisa = document.querySelector("#inputPesquisa")
